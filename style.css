@@ -225,6 +225,8 @@ main {
   
 } */
 
+/* HERO SECTION */
+
 .hero-sec-img {
   position: relative;
   background-image: url(./Assets/Images/Bg-img.jpg);
@@ -235,7 +237,6 @@ main {
   max-width: 1824px;
   /* filter: brightness(.5); */
   z-index: 1;
-  height: 100vh;
   /* min-height: 550px; */
   max-height: 700px;
   display: flex;
@@ -344,6 +345,11 @@ main {
 }
 
 @media (max-width: 632px) {
+.hero-sec-img{
+  height: 50vh;
+
+}
+
   .hero-sec-img-container {
     z-index: 11;
     height: 85%;
@@ -375,6 +381,10 @@ main {
 }
 
 @media (min-width: 632px) {
+  .hero-sec-img{
+    height: 70vh;
+  
+  }
   .hero-sec-img-container {
     z-index: 11;
     height: 85%;
@@ -407,6 +417,10 @@ main {
 }
 
 @media (min-width: 768px) {
+  .hero-sec-img{
+    height: 80vh;
+  
+  }
   .hero-sec-img-container {
     z-index: 11;
     height: 85%;
@@ -438,6 +452,10 @@ main {
 }
 
 @media (min-width: 1142px) {
+  .hero-sec-img{
+    height: 100vh;
+  
+  }
   .hero-sec-img-container {
     z-index: 11;
     height: 65%;
