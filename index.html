@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|fire|shadow-multiple">
+
+  </head>
+  <body>
+    <header>
+      <!-- <span class="header-black-shade"></span> -->
+      <div>
+      <div class="header-logo">
+        <img src="./Assets/Images/Logo.svg" alt="Logo" />
+      </div>
+      <div>
+        <span><p>Sign-in</p></span>
+      </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-blurr-img"></div>
+      <div class="Back-shadow"></div>
+      <div class="Black-shadow"></div>
+      <div class="radial-gradient"></div>
+      <div class="black-shade"></div>
+
+      <!-- <div class="main-div-container-wrapper"> -->
+      <div class="hero-sec-img">
+        <div class="hero-sec-img-radial">
+          <!-- <div class="hero-sec-img-black-shadow"></div>   -->
+          <div class="hero-sec-img-container">
+            <div>Unlimited movies, TV shows, and more</div>
+            <div>Starts at 250. Cancel anytime</div>
+            <div class="join-action-container">
+              <div>
+                Ready to Watch? Enter your email to create or restart your membership.
+              </div>
+              <div>
+                <input type="email" name="email" placeholder="Email address" />
+                <div><p>Get Started ></p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+      <!-- <div class="movie-items-container">  
+      
+        <div class="mic-2">  
+          <ul id="mic-movie-items">
+<li class="mic-movie-items-1"><img src="./Assets/Images/Item 1.webp" alt=""></li>
+<li><img src="./Assets/Images/Item 2.webp" alt=""></li>
+<li><img src="./Assets/Images/Item 3.webp" alt=""></li>
+<li><img src="./Assets/Images/Item 4.webp" alt=""></li>
+<li><img src="./Assets/Images/Item 5.webp" alt=""></li>
+<li><img src="./Assets/Images/Item 1.webp" alt=""></li>
+<li><img src="./Assets/Images/Item 2.webp" alt=""></li>
+<li><img src="./Assets/Images/Item 3.webp" alt=""></li>
+<li><img src="./Assets/Images/Item 4.webp" alt=""></li>
+<li><img src="./Assets/Images/Item 5.webp" alt=""></li>
+
+
+          </ul>  
+        </div>  
+      </div>  -->
+
+      <div class="real-movie-items-container">
+      <h1>Trending</h1>
+
+
+      <div class="movie-items-container">
+
+        <button class="scroll-button-left" 
+        style="visibility: hidden;"
+        >
+          &lt;
+        </button>
+
+        <div class="mic-2">
+       
+          <ul id="mic-movie-items-ul">
+            <li class="mic-movie-items"><span class="font-effect-shadow-multiple">1</span><img src="./Assets/Images/Item 1.webp" alt="" /></li>
+            <li class="mic-movie-items"><span class="font-effect-shadow-multiple">2</span><img src="./Assets/Images/Item 2.webp" alt="" /></li>
+            <li class="mic-movie-items"><span class="font-effect-shadow-multiple">3</span><img src="./Assets/Images/Item 3.webp" alt="" /></li>
+            <li class="mic-movie-items"><span class="font-effect-shadow-multiple">4</span><img src="./Assets/Images/Item 4.webp" alt="" /></li>
+            <li class="mic-movie-items"><span class="font-effect-shadow-multiple">5</span><img src="./Assets/Images/Item 5.webp" alt="" /></li>
+            <li class="mic-movie-items"><span class="font-effect-shadow-multiple">6</span><img src="./Assets/Images/Item 1.webp" alt="" /></li>
+            <li class="mic-movie-items"><span class="font-effect-shadow-multiple">7</span><img src="./Assets/Images/Item 2.webp" alt="" /></li>
+            <li class="mic-movie-items"><span class="font-effect-shadow-multiple">8</span><img src="./Assets/Images/Item 3.webp" alt="" /></li>
+            <li class="mic-movie-items"><span class="font-effect-shadow-multiple">9</span><img src="./Assets/Images/Item 4.webp" alt="" /></li>
+            <li class="mic-movie-items"><span class="font-effect-shadow-multiple">10</span><img src="./Assets/Images/Item 5.webp" alt="" /></li>
+          </ul>
+       
+        </div>
+
+        <button class="scroll-button-right" 
+        style="visibility: hidden;"
+        
+        >
+          &gt;
+        </button>
+
+       
+      </div>
+    </div>
+
+      <div class="supscription-plans-box"></div>
+
+      <div class="more-reasons-to-join-container">
+        <div>
+          <h1>More Reasons to Join</h1>
+        </div>
+        <div>
+          <div>
+            <div>Stories tailored to your taste</div>
+            <span
+              >Discover entertainment you'll love right away, with personalized
+              recommendations.</span
+            >
+            <div><img src="./Assets/Images/1.svg" alt="" /></div>
+          </div>
+          <div>
+            <div>Cancel or switch plans anytime</div>
+            <span
+              >Make changes to your plan whenever you need, without any
+              hassle.</span
+            >
+            <div><img src="./Assets/Images/2.svg" alt="" /></div>
+          </div>
+          <div>
+            <div>A place just for kids</div>
+            <span
+              >Send kids on adventures with beloved characters in a space made
+              just for them.</span
+            >
+            <div><img src="./Assets/Images/3.svg" alt="" /></div>
+          </div>
+          <div>
+            <div>For your phone, tablet, laptop and TV</div>
+            <span
+              >Stream endless movies and shows on your phone, tablet, laptop and
+              TV.</span
+            >
+            <div><img src="./Assets/Images/4.svg" alt="" /></div>
+          </div>
+        </div>
+      </div>
+      <div class="faq-container">
+        <h1 style="margin-bottom: 25px;">Frequently asked Questions</h1>
+
+        <div onclick="toggleAnswer(this)">
+          <div>
+            <div>
+          <h3>What is Netflix?</h3>
+
+          <span class="open-answer">+</span>  
+        </div>
+        </div>
+
+          <div class="answer" style="height: 0px;">
+            Netflix is a streaming service that offers a wide variety of
+            award-winning TV shows, movies, anime, documentaries, and more on
+            thousands of internet-connected devices. You can watch as much as
+            you want, whenever you want without a single commercial - all for
+            one low monthly price. There's always something new to discover and
+            new TV shows and movies are added every week!
+          </div>
+        </div>
+
+        <div onclick="toggleAnswer(this)">
+          <div>
+            <div>
+          <h3>How much does Netflix cost?</h3>
+        
+          <span class="open-answer">+</span>
+        </div>
+        </div>
+          <div class="answer" style="height: 0px;">
+            Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+            streaming device, all for one fixed monthly fee. Plans range from Rs
+            250 to Rs 1,100 a month. No extra costs, no contracts.
+          </div>
+        </div>
+
+        <div onclick="toggleAnswer(this)">
+
+<div>
+  <div>
+          <h3>Where can I watch?</h3>
+
+          <span class="open-answer">+</span>
+        </div>
+        </div>
+          <div class="answer"  style="height: 0px;">
+            Watch anywhere, anytime. Sign in with your Netflix account to watch
+            instantly on the web at netflix.com from your personal computer or
+            on any internet-connected device that offers the Netflix app,
+            including smart TVs, smartphones, tablets, streaming media players
+            and game consoles. You can also download your favorite shows with
+            the iOS or Android app. Use downloads to watch while you're on the
+            go and without an internet connection. Take Netflix with you
+            anywhere.
+          </div>
+        </div>
+
+        <div onclick="toggleAnswer(this)">
+<div>
+  <div>
+
+          <h3>How do I cancel?</h3>
+
+          <span class="open-answer">+</span>
+        </div>
+        </div>
+          <div class="answer"  style="height: 0px;">
+            Netflix is flexible. There are no pesky contracts and no
+            commitments. You can easily cancel your account online in two
+            clicks. There are no cancellation fees - start or stop your account
+            anytime.
+          </div>
+        </div>
+
+        <div onclick="toggleAnswer(this)">
+<div>
+<div>
+          <h3>What can I watch on Netflix?</h3>
+
+          <span class="open-answer">+</span>
+        </div>
+        </div>
+          <div class="answer"  style="height: 0px; " >
+            Netflix has an extensive library of feature films, documentaries, TV
+            shows, anime, award-winning Netflix originals, and more. Watch as
+            much as you want, anytime you want.
+          </div>
+        </div>
+
+        <div onclick="toggleAnswer(this)">
+
+<div>
+  <div>
+          <h3>Is Netflix good for kids?</h3>
+
+          <span class="open-answer">+</span>
+        </div>
+        </div>
+          <div class="answer"  style="height: 0px;" >
+            The Netflix Kids experience is included in your membership to give
+            parents control while kids enjoy family-friendly TV shows and movies
+            in their own space. Kids profiles come with PIN-protected parental
+            controls that let you restrict the maturity rating of content kids
+            can watch and block specific titles you don't want kids to see.
+          </div>
+        </div>
+      </div>
+
+      <div class="join-action-container">
+        <div>
+          Ready to Watch? Enter your email to create or restart your membership.
+        </div>
+        <div>
+          <input type="email" name="email" placeholder="Email address" />
+          <div><p>Getting Started ></p></div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div>Questions? Contact us.</div>
+
+        <a href="">FAQ</a>
+        <a href="">Investor Relations</a>
+        <a href="">Privacy</a>
+        <a href="">Speed Test</a>
+        <a href="">Help Center</a>
+        <a href="">Jobs</a>
+        <a href="">Cookie Preferences</a>
+        <a href="">Legal Notice</a>
+        <a href="">Account</a>
+        <a href="">Media Center</a>
+        <a href="">Ways to Watch</a>
+        <a href="">Terms of Use</a>
+        <a href="">Corporate Information</a>
+        <a href="">Contact Us</a>
+      </div>
+
+      <div class="after-footer">
+        <select name="" id="">
+          <span><img src="./Assets/Images/translate.svg" alt="" /></span>
+          <option value="English">English</option>
+        </select>
+        Netflix Pakistan
+      </div>
+    </main>
+  </body>
+
+  <script>
+
+
+
+// document.getElementById("main").style.paddi
+
+function toggleAnswer(item){
+
+  let toggleSign = item.querySelector('.open-answer');
+let answer = item.querySelector('.answer');
+
+  if(answer.style.height == "0px"){
+    answer.style.height="140px";
+    answer.style.paddingBottom="20px";
+    answer.style.paddingTop="20px";
+    answer.style.marginBottom="10px";
+    answer.style.visibility='visible';
+    toggleSign.innerHTML="+";
+    toggleSign.style.transform="rotate(45deg)";
+    toggleSign.style.height="";
+  } else {  
+        answer.style.height = '0px';   
+        answer.style.paddingBottom="0px";
+        answer.style.paddingTop="0px";
+        answer.style.marginBottom="0px";
+        answer.style.visibility='hidden';
+        toggleSign.textContent = '+';   
+        toggleSign.style.transform="rotate(90deg)";
+
+
+    }
+
+}
+
+    // Updated scroll position detection code
+    // const movieContainer = document.querySelector('.movie-items-container');
+    const movieContainer = document.querySelector('.mic-2');
+    const movieList = document.querySelector('#mic-movie-items-ul');
+    const firstItem = movieList.firstElementChild;
+    const lastItem = movieList.lastElementChild;    
+    const left_button = document.querySelector('.scroll-button-left')
+    const right_button = document.querySelector('.scroll-button-right')
+
+    function checkScrollPosition() {
+      // Check if we can scroll left (first item is not fully visible)
+      const canScrollLeft = movieContainer.scrollLeft > 0;
+      
+      
+      // Check if we can scroll right (last item is not fully visible)
+      const canScrollRight = movieContainer.scrollLeft < (movieList.scrollWidth - movieContainer.clientWidth);
+      console.log('movieContainer.scrollLeft',movieContainer.scrollLeft)
+      console.log('movieContainer.scrollWidth',movieContainer.scrollWidth)
+      console.log('movieContainer.clientWidth',movieContainer.clientWidth)
+      console.log(canScrollRight)  
+          // Remove all scroll-related classes first
+      movieContainer.classList.remove('can-scroll-left', 'can-scroll-right', 'at-start', 'at-end');
+      
+      // Add appropriate classes based on scroll position
+      if (canScrollLeft && canScrollRight) {
+        // In the middle - can scroll both ways
+        movieContainer.classList.add('can-scroll-left', 'can-scroll-right');
+        left_button.style.visibility = 'visible'
+        right_button.style.visibility = 'visible'
+
+      } else if (!canScrollLeft) {
+        // At the start - can only scroll right
+        movieContainer.classList.add('at-start');
+        right_button.style.visibility = 'visible'
+        left_button.style.visibility = 'hidden'
+  
+
+      } else if (!canScrollRight) {
+        // At the end - can only scroll left
+        movieContainer.classList.add('at-end');
+        left_button.style.visibility = 'visible'
+        right_button.style.visibility = 'hidden'
+      
+      }
+    }
+
+    // Check scroll position on scroll and on page load
+    movieContainer.addEventListener('scroll', checkScrollPosition);
+    window.addEventListener('load', checkScrollPosition);
+
+    left_button.addEventListener('click', ()=>{
+      movieContainer.scrollLeft = 0
+    })
+
+    right_button.addEventListener('click', ()=>{
+      movieContainer.scrollLeft = 500;
+    
+    })
+
+
+
+  </script>
+</html>
+
+
